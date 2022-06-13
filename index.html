@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cubo 3D</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>cubo 3D CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="emoji">
-        <div class="face">
-            <div class="eyes">
-                <div class="eye"></div>
-                <div class="eye"></div>
+    <div class="container">
+        <div class="cube-container">
+            <div class="cube">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
             </div>
-            <div class="mouth"></div>
+        </div>
+        <div class="control">
+            <button class="btn-cube btn-top" onclick="degTop()">top</button>
+            <button class="btn-cube btn-left">left</button>
+            <button class="btn-cube btn-right">right</button>
+            <button class="btn-cube btn-bottom">bottom</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
