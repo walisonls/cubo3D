@@ -1,0 +1,1 @@
+Gostei muito desse porjeto, embora simples. A ideia inicial era apenas criar um cubo em 3D, mas depois que aprendi o coceito todo eu decidi adicionar botões pra manipular as dimensões do cubo, no fim deu muito certo.
