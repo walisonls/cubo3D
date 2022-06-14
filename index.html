@@ -20,10 +20,16 @@
             </div>
         </div>
         <div class="control">
-            <button class="btn-cube btn-top">top</button>
-            <button class="btn-cube btn-left">left</button>
-            <button class="btn-cube btn-right">right</button>
-            <button class="btn-cube btn-bottom">bottom</button>
+            <button class="btn-cube btn-top"
+            onclick="adicionarX()"
+            >top</button>
+            <button class="btn-cube btn-left"
+            onclick="removerY()"
+            >left</button>
+            <button class="btn-cube btn-right"
+            onclick="adicionarY()"
+            >right</button>
+            <button class="btn-cube btn-bottom" onclick="removerX()">bottom</button>
         </div>
     </div>
     <script src="script.js"></script>
